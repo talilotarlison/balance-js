@@ -1,0 +1,38 @@
+    .btn-large {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      margin: 20px;
+    }
+
+    .brand-logo{
+      margin-left: 25px;
+    }
+
+    .sidenav{
+     
+    }
+    .materialize-logo{
+      width: 120px;
+    }
+    .teste{
+      background-color: transparent;
+      box-shadow: none;
+      
+    }
+    .teste:hover{
+      background-color: transparent;
+      box-shadow: none;
+      transform: scale(1.1 ,1.1); 
+    }
+	
+	.card-stacked{
+	height: 200px !important;
+	padding: 20px;
+	}
+	
+	.card-metric-title  span{
+	font-size: 28px !important;
+	}
+	
+ 

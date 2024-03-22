@@ -1,0 +1,274 @@
+<html>
+
+<head>
+  <html lang="pt-br">
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Balance</title>
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper blue darken-1">
+          <a href="#!" class="brand-logo">Balance</a>
+          <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="">Início</a></li>
+            <li><a href="">Dashboard</a></li>
+            <li><a href="">Lançamentos</a></li>
+            <li><a href="">Configurações</a></li>
+            <li><a href="" ><i class="material-icons">search</i></a></li>
+            <li><a href="#modal1" class="waves-effect waves-light btn modal-trigger teste"><i class="material-icons">view_module</i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <ul class="sidenav white lighten-2" id="slide-out">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="https://cdn.formtemplate.org/html/blankjeopardytemplate/bg20.png">
+          </div>
+          <a href="#user"><img class="circle" src="https://cmecourses.som.uab.edu/pluginfile.php/12916/mod_resource/content/10/PPC_Jan10_2018/_img/people-icon.png"></a>
+          <a href="#name"><span class="white-text name">John Doe</span></a>
+          <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+        </div>
+      </li>
+	  <li><a href=""><i class="material-icons">dashboard</i>Dashboard</a></li>
+	  <li><a href=""><i class="material-icons">equalizer</i>Lançamentos</a></li>
+      <li><a href=""><i class="material-icons">settings_applications</i>Configurações</a></li>
+	  <li><a href=""><i class="material-icons">backup</i>Backup</a></li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li><a class="subheader">Usuario</a></li>
+	    <li><a class="waves-effect" href="">Dados</a></li>
+      <li><a class="waves-effect" href="">Sair</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <section>
+      <div class="container">
+        <div class="masonry row">
+          <div class="col s12">
+            <h2>Dashboard</h2>
+          </div>
+          <div class="col l3 m6 s12">
+      
+            <div class="card green">
+              <div class="card-stacked">
+                <div class="card-metrics card-metrics-static">
+                  <div class="card-metric">
+                    <div class="card-metric-title"><span>Entradas</span></div>
+                    <div class="card-metric-value">$12,476.00</div>
+                    <div class="card-metric-change increase">
+                      <i class="material-icons left">arrow_upward</i>
+                      12%
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+          <div class="col l3 m6 s12">
+      
+            <div class="card yellow">
+              <div class="card-stacked">
+                <div class="card-metrics card-metrics-static">
+                  <div class="card-metric">
+                    <div class="card-metric-title"><span>Agendados</span></div>
+                    <div class="card-metric-value">11,893</div>
+                    <div class="card-metric-change increase">
+                      <i class="material-icons left">access_time</i>
+                      8%
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+          <div class="col l3 m6 s12">
+      
+            <div class="card red">
+              <div class="card-stacked">
+                <div class="card-metrics card-metrics-static">
+                  <div class="card-metric">
+                    <div class="card-metric-title"><span>Saida</span></div>
+                    <div class="card-metric-value">230,648</div>
+                    <div class="card-metric-change decrease">
+                      <i class="material-icons left">arrow_downward</i>
+                      2%
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+          <div class="col l3 m6 s12">
+      
+            <div class="card blue">
+              <div class="card-stacked">
+                <div class="card-metrics card-metrics-static">
+                  <div class="card-metric">
+                    <div class="card-metric-title"><span>Saldo Total</span></div>
+                    <div class="card-metric-value">230,648</div>
+                    <div class="card-metric-change decrease">
+                      <i class="material-icons left">call_made</i>
+                      2%
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section>
+
+      <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <h4>Modal de configurações</h4>
+          <p>A bunch of text configurações da pagina</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+      </div>
+
+    </section>
+
+    <section>
+
+      <!--table-->
+
+      <table class="striped">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Item Name</th>
+            <th>Item Price</th>
+            <th>Item Price</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Alvin</td>
+            <td>Eclair</td>
+            <td>$0.87</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td>Alan</td>
+            <td>Jellybean</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>Jonathan</td>
+            <td>Lollipop</td>
+            <td>$7.00</td>
+          <tr>
+            <td>Alvin</td>
+            <td>Eclair</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td>Alan</td>
+            <td>Jellybean</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>Jonathan</td>
+            <td>Lollipop</td>
+            <td>$7.00</td>
+          <tr>
+            <td>Alvin</td>
+            <td>Eclair</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td>Alan</td>
+            <td>Jellybean</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>Jonathan</td>
+            <td>Lollipop</td>
+            <td>$7.00</td>
+          <tr>
+            <td>Alvin</td>
+            <td>Eclair</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td>Alan</td>
+            <td>Jellybean</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>Jonathan</td>
+            <td>Lollipop</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col s6 m3">
+          <img class="materialize-logo" src="https://iconape.com/wp-content/png_logo_vector/materialize-logo.png" alt="Materialize">
+          <p>Made with love by Materialize.</p>
+        </div>
+        <div class="col s6 m3">
+          <h5>About</h5>
+          <ul>
+            <li><a href="#!">Blog</a></li>
+            <li><a href="#!">Pricing</a></li>
+            <li><a href="#!">Docs</a></li>
+          </ul>
+        </div>
+        <div class="col s6 m3">
+          <h5>Connect</h5>
+          <ul>
+            <li><a href="#!">Community</a></li>
+            <li><a href="#!">Subscribe</a></li>
+            <li><a href="#!">Email</a></li>
+          </ul>
+        </div>
+        <div class="col s6 m3">
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="#!">Twitter</a></li>
+            <li><a href="#!">Facebook</a></li>
+            <li><a href="#!">Github</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Add Trigger -->
+    <a class="btn-floating  btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./assets/app.js" ></script>
+</body>
+
+</html>
